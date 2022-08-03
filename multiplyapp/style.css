@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background: rgb(168,33,80);
+    background: linear-gradient(90deg, rgba(168,33,80,1) 17%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-family: "Comic Sans MS", serif;
+}
+.form{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0, .4);
+    border-radius: 11px;
+    margin: 10px;
+}
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 35px;
+    text-align: center;
+    padding: 5px;
+    border: solid 2px darkorange;
+    border-radius: 8px;
+    color: darkorange;
+}
+.input::placeholder{
+    color: lightblue;
+    font-family: "Comic Sans MS", serif;
+}
+.btn{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 2%, rgba(161,82,176,1) 38%, rgba(170,81,169,1) 59%, rgba(172,81,168,1) 60%, rgba(210,76,139,1) 81%, rgba(212,76,137,1) 82%, rgba(230,73,124,1) 90%, rgba(252,70,107,1) 100%);
+    border:  none;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 5px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0, 0.3);
+    cursor: pointer;
+}
+.btn:hover{
+    filter: brightness(0.9);
+}
+.score {
+    font-family: "Comic Sans MS", serif;
+    color: orangered;
+    text-align: right;
+}
